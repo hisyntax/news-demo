@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 html {
   box-sizing: border-box;
 }
@@ -52,13 +53,16 @@ header {
   right: 0;
   display: flex;
   justify-content: space-between;
-  background-color: var(--light-green);
+  background-color: black;
+  /* background-color: var(--light-green); */
   padding: 5px 10px;
   align-items: center;
 }
 
 .logo {
-  color: #002200;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
 }
 
 form {
@@ -86,8 +90,9 @@ form {
 
 .result-count {
   color: var(--dark-grey);
+  margin-top: 20vh;
   text-align: center;
-  margin-bottom: 15px;
+  /* margin-bottom: 10px; */
 }
 
 .search-results {
@@ -139,7 +144,7 @@ form {
   margin-right: 20px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
   header {
     flex-direction: column;
     height: auto;
